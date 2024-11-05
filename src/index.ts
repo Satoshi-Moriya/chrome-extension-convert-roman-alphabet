@@ -1,4 +1,7 @@
-const messageElement = document.getElementById('message');
-if (messageElement) {
-  messageElement.textContent = 'hello';
+export function toUpperCase(text: string): string {
+  return text.toUpperCase();
+}
+
+export function toLowerCase(text: string): string {
+  return text.toLowerCase();
 }

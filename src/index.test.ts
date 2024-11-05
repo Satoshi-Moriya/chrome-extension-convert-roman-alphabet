@@ -1,3 +1,6 @@
+import { toUpperCase } from ".";
+import { toLowerCase } from ".";
+
 test('converts all text to uppercase', () => {
   expect(toUpperCase('hello')).toBe('HELLO');
 });
